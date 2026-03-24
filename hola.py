@@ -1,7 +1,10 @@
-print("Hola Mundo")
+def edgar():
+    return "Edgar René Sauceda"
 
-def nombre():
-    nombre = "Guillermo Sagasta Mendoza"
-    return nombre
+def guillermo():
+    return "Guillermo Sagasta Mendoza"
 
-print(nombre())
+
+if __name__ == "__main__":
+    print(edgar())
+    print(guillermo())
